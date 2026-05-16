@@ -24,7 +24,7 @@ public class LoginPageTest extends BaseClass {
 		LoginPage loginPage = new LoginPage();
 		Boolean isErrorMessageDisplayed = loginPage.invalidLogin("wrongAdmin", "wrongPassword");
 		if (isErrorMessageDisplayed) {
-			System.out.println("Invalid login test passed...");
+			System.out.println("Invalid login test passed....");
 		} else {
 			System.out.println("Invalid login test failed...");
 		}
