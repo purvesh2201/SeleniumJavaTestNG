@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import com.Automation.Base.BaseClass;
 import com.Automation.Pages.LoginPage;
+import com.Automation.Utilities.Log;
 
 public class LoginPageTest extends BaseClass {
 	
@@ -13,9 +14,9 @@ public class LoginPageTest extends BaseClass {
 		LoginPage loginPage = new LoginPage();
 		Boolean isLoginSuccessful = loginPage.validLogin("Admin", "admin123");
 		if (isLoginSuccessful) {
-			System.out.println("Valid login test passed.");
+			Log.info("Valid login test passed.");
 		} else {
-			System.out.println("Valid login test failed.");
+			Log.error("Valid login test failed.");
 		}	
 	}
 	
@@ -24,9 +25,9 @@ public class LoginPageTest extends BaseClass {
 		LoginPage loginPage = new LoginPage();
 		Boolean isErrorMessageDisplayed = loginPage.invalidLogin("wrongAdmin", "wrongPassword");
 		if (isErrorMessageDisplayed) {
-			System.out.println("Invalid login test passed....");
+			Log.info("Invalid login test passed....");
 		} else {
-			System.out.println("Invalid login test failed....");
+			Log.error("Invalid login test failed....");
 		}
 	}
 	
