@@ -10,7 +10,7 @@ public class LoginPageTest extends BaseClass {
 	
 	@Test
 	public void testValidLogin() {
-		
+		Log.info("testValidLogin started.");
 		LoginPage loginPage = new LoginPage();
 		Boolean isLoginSuccessful = loginPage.validLogin("Admin", "admin123");
 		if (isLoginSuccessful) {
@@ -18,10 +18,12 @@ public class LoginPageTest extends BaseClass {
 		} else {
 			Log.error("Valid login test failed.");
 		}	
+		Log.info("testValidLogin ended.");
 	}
 	
 	@Test
 	public void testInvalidLogin() {
+		Log.info("testInValidLogin started.");
 		LoginPage loginPage = new LoginPage();
 		Boolean isErrorMessageDisplayed = loginPage.invalidLogin("wrongAdmin", "wrongPassword");
 		if (isErrorMessageDisplayed) {
@@ -29,6 +31,7 @@ public class LoginPageTest extends BaseClass {
 		} else {
 			Log.error("Invalid login test failed....");
 		}
+		Log.info("testInValidLogin ended.");
 	}
 	
 	
