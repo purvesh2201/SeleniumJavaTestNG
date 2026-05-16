@@ -26,7 +26,7 @@ public class LoginPageTest extends BaseClass {
 		if (isErrorMessageDisplayed) {
 			System.out.println("Invalid login test passed....");
 		} else {
-			System.out.println("Invalid login test failed...");
+			System.out.println("Invalid login test failed....");
 		}
 	}
 	
