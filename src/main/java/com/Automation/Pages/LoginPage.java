@@ -24,7 +24,7 @@ public class LoginPage {
 	@FindBy(xpath = "//span[text()='Dashboard']") private WebElement dashboardHeader;
 	@FindBy(xpath = "//p[text()='Invalid credentials']") private WebElement invalidCredentialsMessage;
 	
-	@Test
+
 	public Boolean validLogin(String username,String password) {
 		WaitManager.waitForVisibility(usernameField);
 		usernameField.sendKeys(username);
@@ -34,6 +34,7 @@ public class LoginPage {
 		return dashboardHeader.isDisplayed();
 	}
 	
+
 	public Boolean invalidLogin(String username,String password) {
 		WaitManager.waitForVisibility(usernameField);
 		usernameField.sendKeys(username);

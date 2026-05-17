@@ -1,2 +1,26 @@
 2026-05-16 22:14:06 INFO  Log:10 - Invalid login test passed....
 2026-05-16 22:14:17 INFO  Log:10 - Valid login test passed.
+2026-05-17 09:41:49 INFO  Log:10 - src\main\java\com\Automation\Config\config.properties (The system cannot find the path specified)
+2026-05-17 09:41:49 INFO  Log:10 - src\main\java\com\Automation\Config\config.properties (The system cannot find the path specified)
+2026-05-17 09:41:49 INFO  Log:10 - reader parameter is null
+2026-05-17 09:41:49 INFO  Log:10 - reader parameter is null
+2026-05-17 09:42:33 INFO  Log:10 - \OrangeHRMTestNG\src\main\resources\config.properties (The system cannot find the path specified)
+2026-05-17 09:42:33 INFO  Log:10 - \OrangeHRMTestNG\src\main\resources\config.properties (The system cannot find the path specified)
+2026-05-17 09:42:33 INFO  Log:10 - reader parameter is null
+2026-05-17 09:42:33 INFO  Log:10 - reader parameter is null
+2026-05-17 09:44:06 INFO  Log:10 - \OrangeHRMTestNG\src\main\resources\config.properties (The system cannot find the path specified)
+2026-05-17 09:44:06 INFO  Log:10 - \OrangeHRMTestNG\src\main\resources\config.properties (The system cannot find the path specified)
+2026-05-17 09:44:06 INFO  Log:10 - reader parameter is null
+2026-05-17 09:44:06 INFO  Log:10 - reader parameter is null
+2026-05-17 09:44:59 INFO  Log:10 - testValidLogin started.
+2026-05-17 09:44:59 INFO  Log:10 - testInValidLogin started.
+2026-05-17 09:45:01 INFO  Log:10 - Valid login test passed.
+2026-05-17 09:45:01 INFO  Log:10 - testValidLogin ended.
+2026-05-17 09:45:01 INFO  Log:10 - Invalid login test passed....
+2026-05-17 09:45:01 INFO  Log:10 - testInValidLogin ended.
+2026-05-17 09:46:20 INFO  Log:10 - testValidLogin started.
+2026-05-17 09:46:20 INFO  Log:10 - testInValidLogin started.
+2026-05-17 09:46:22 INFO  Log:10 - Invalid login test passed....
+2026-05-17 09:46:22 INFO  Log:10 - testInValidLogin ended.
+2026-05-17 09:46:22 INFO  Log:10 - Valid login test passed.
+2026-05-17 09:46:22 INFO  Log:10 - testValidLogin ended.

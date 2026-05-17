@@ -13,11 +13,7 @@ public class LoginPageTest extends BaseClass {
 		Log.info("testValidLogin started.");
 		LoginPage loginPage = new LoginPage();
 		Boolean isLoginSuccessful = loginPage.validLogin("Admin", "admin123");
-		if (isLoginSuccessful) {
-			Log.info("Valid login test passed.");
-		} else {
-			Log.error("Valid login test failed.");
-		}	
+		Log.info(isLoginSuccessful ? "Login successful, dashboard is displayed." : "Login failed, dashboard is not displayed.");
 		Log.info("testValidLogin ended.");
 	}
 	
@@ -26,11 +22,7 @@ public class LoginPageTest extends BaseClass {
 		Log.info("testInValidLogin started.");
 		LoginPage loginPage = new LoginPage();
 		Boolean isErrorMessageDisplayed = loginPage.invalidLogin("wrongAdmin", "wrongPassword");
-		if (isErrorMessageDisplayed) {
-			Log.info("Invalid login test passed....");
-		} else {
-			Log.error("Invalid login test failed....");
-		}
+		Log.info(isErrorMessageDisplayed ? "Invalid credentials message is displayed." : "Invalid credentials message is not displayed.");
 		Log.info("testInValidLogin ended.");
 	}
 	
