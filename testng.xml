@@ -4,6 +4,7 @@
   <test thread-count="5" name="OrangeHRMTestNG">
   <classes>
     <class name="com.Automation.Tests.LoginPageTest"/>
+    <class name="com.Automation.Tests.EmployeePageTest"/>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

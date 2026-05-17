@@ -8,25 +8,15 @@ import org.testng.annotations.Test;
 
 import com.Automation.Base.BaseClass;
 import com.Automation.Pages.LoginPage;
+import com.Automation.Utilities.DataProviderClass;
 import com.Automation.Utilities.ExcelDataManager;
 import com.Automation.Utilities.Log;
 
 
 public class LoginPageTest extends BaseClass {
 	
-	
-    @DataProvider(name = "LoginTestData")
-    public Object[][] validlogindata() throws IOException {
-        return ExcelDataManager.dataProvider("ValidLogin");
-    }
 
-    @DataProvider(name = "InValidLoginTestData")
-    public Object[][] invalidlogindata() throws IOException {
-        return ExcelDataManager.dataProvider("InValidLogin");
-    }
-	
-
-	@Test(dataProvider = "LoginTestData")
+	@Test(dataProvider = "LoginTestData" , dataProviderClass = DataProviderClass.class)
 	public void testValidLogin(String username, String password) {
 		Log.info("testValidLogin started.");
 		LoginPage loginPage = new LoginPage();
@@ -37,7 +27,7 @@ public class LoginPageTest extends BaseClass {
 	}
 	
 
-	@Test(dataProvider = "InValidLoginTestData")
+	@Test(dataProvider = "InValidLoginTestData", dataProviderClass = DataProviderClass.class)
 	public void testInvalidLogin(String username, String password) {
 		Log.info("testInValidLogin started.");
 		LoginPage loginPage = new LoginPage();
