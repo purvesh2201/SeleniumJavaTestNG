@@ -97,3 +97,75 @@
 2026-05-17 13:50:12 INFO  Log:10 - testValidLogin ended.
 2026-05-17 13:50:14 INFO  Log:10 - Invalid credentials message is displayed.
 2026-05-17 13:50:14 INFO  Log:10 - testInValidLogin ended.
+2026-05-17 14:01:16 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:01:17 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:01:19 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:01:19 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:01:19 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:01:19 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:01:24 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:01:24 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:01:26 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:01:26 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:01:27 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:01:27 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:01:32 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:01:32 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:01:34 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:01:34 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:01:35 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:01:35 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:01:43 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:01:44 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:01:45 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:01:45 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:01:46 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:01:46 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:01:51 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:01:52 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:01:53 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:01:53 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:01:55 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:01:55 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:01:58 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:02:00 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:02:00 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:02:01 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:02:03 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:02:03 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:02:14 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:02:15 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:02:16 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:02:16 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:02:17 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:02:17 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:02:22 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:02:23 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:02:24 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:02:24 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:02:25 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:02:25 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:02:31 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:02:31 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:02:33 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:02:33 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:02:33 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:02:33 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:05:09 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:05:11 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:05:12 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:05:12 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:05:13 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:05:13 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:05:18 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:05:19 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:05:20 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:05:20 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:05:21 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:05:21 INFO  Log:10 - testInValidLogin ended..
+2026-05-17 14:05:26 INFO  Log:10 - testValidLogin started.
+2026-05-17 14:05:26 INFO  Log:10 - testInValidLogin started.
+2026-05-17 14:05:28 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 14:05:28 INFO  Log:10 - testValidLogin ended..
+2026-05-17 14:05:28 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 14:05:28 INFO  Log:10 - testInValidLogin ended..

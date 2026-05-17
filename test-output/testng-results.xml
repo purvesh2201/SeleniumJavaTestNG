@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-17T13:49:56 IST" name="Suite" finished-at="2026-05-17T13:50:14 IST" duration-ms="18472">
+  <suite started-at="2026-05-17T14:05:03 IST" name="Suite" finished-at="2026-05-17T14:05:29 IST" duration-ms="25812">
     <groups>
     </groups>
-    <test started-at="2026-05-17T13:49:56 IST" name="method" finished-at="2026-05-17T13:50:14 IST" duration-ms="18472">
+    <test started-at="2026-05-17T14:05:03 IST" name="OrangeHRMTestNG" finished-at="2026-05-17T14:05:29 IST" duration-ms="25812">
       <class name="com.Automation.Tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:49:57 IST" name="setup" finished-at="2026-05-17T13:50:02 IST" duration-ms="5324" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:04 IST" name="setup" finished-at="2026-05-17T14:05:09 IST" duration-ms="5278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:49:57 IST" name="setup" finished-at="2026-05-17T13:50:03 IST" duration-ms="6732" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:04 IST" name="setup" finished-at="2026-05-17T14:05:11 IST" duration-ms="6604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:02 IST" name="testValidLogin" data-provider="LoginTestData" finished-at="2026-05-17T13:50:05 IST" duration-ms="2594" status="PASS">
+        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:09 IST" name="testValidLogin" data-provider="LoginTestData" finished-at="2026-05-17T14:05:12 IST" duration-ms="3161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:03 IST" name="testInvalidLogin" data-provider="InValidLoginTestData" finished-at="2026-05-17T13:50:06 IST" duration-ms="2228" status="PASS">
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:11 IST" name="testInvalidLogin" data-provider="InValidLoginTestData" finished-at="2026-05-17T14:05:13 IST" duration-ms="2086" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,23 +47,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:05 IST" name="tearDown" finished-at="2026-05-17T13:50:05 IST" duration-ms="793" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:12 IST" name="tearDown" finished-at="2026-05-17T14:05:13 IST" duration-ms="700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:05 IST" name="setup" finished-at="2026-05-17T13:50:10 IST" duration-ms="4677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:06 IST" name="tearDown" finished-at="2026-05-17T13:50:06 IST" duration-ms="525" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:13 IST" name="tearDown" finished-at="2026-05-17T14:05:13 IST" duration-ms="540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:06 IST" name="setup" finished-at="2026-05-17T13:50:11 IST" duration-ms="5154" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:13 IST" name="setup" finished-at="2026-05-17T14:05:18 IST" duration-ms="4827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:10 IST" name="testValidLogin" data-provider="LoginTestData" finished-at="2026-05-17T13:50:12 IST" duration-ms="2361" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:13 IST" name="setup" finished-at="2026-05-17T14:05:19 IST" duration-ms="5339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:18 IST" name="testValidLogin" data-provider="LoginTestData" finished-at="2026-05-17T14:05:20 IST" duration-ms="2379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:11 IST" name="testInvalidLogin" data-provider="InValidLoginTestData" finished-at="2026-05-17T13:50:14 IST" duration-ms="2418" status="PASS">
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:19 IST" name="testInvalidLogin" data-provider="InValidLoginTestData" finished-at="2026-05-17T14:05:21 IST" duration-ms="1989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,15 +95,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:12 IST" name="tearDown" finished-at="2026-05-17T13:50:13 IST" duration-ms="779" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:20 IST" name="tearDown" finished-at="2026-05-17T14:05:21 IST" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T13:50:14 IST" name="tearDown" finished-at="2026-05-17T13:50:14 IST" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:21 IST" name="tearDown" finished-at="2026-05-17T14:05:21 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:21 IST" name="setup" finished-at="2026-05-17T14:05:26 IST" duration-ms="4609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:21 IST" name="setup" finished-at="2026-05-17T14:05:26 IST" duration-ms="5167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:26 IST" name="testValidLogin" data-provider="LoginTestData" finished-at="2026-05-17T14:05:28 IST" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:26 IST" name="testInvalidLogin" data-provider="InValidLoginTestData" finished-at="2026-05-17T14:05:28 IST" duration-ms="2177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:28 IST" name="tearDown" finished-at="2026-05-17T14:05:29 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automation.Tests.LoginPageTest@f5958c9]" started-at="2026-05-17T14:05:28 IST" name="tearDown" finished-at="2026-05-17T14:05:29 IST" duration-ms="552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Automation.Tests.LoginPageTest -->
-    </test> <!-- method -->
+    </test> <!-- OrangeHRMTestNG -->
   </suite> <!-- Suite -->
 </testng-results>
