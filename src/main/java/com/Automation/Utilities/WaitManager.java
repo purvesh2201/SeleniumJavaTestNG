@@ -1,5 +1,7 @@
 package com.Automation.Utilities;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -29,5 +31,26 @@ public class WaitManager {
     public static WebElement waitForClickable(WebElement element) {
         return getWait().until(ExpectedConditions.elementToBeClickable(element));
     }
+    
+    
+    public static boolean waitForSelected(WebElement element) {
+        return getWait().until(ExpectedConditions.elementToBeSelected(element));
+    }
+
+	 public static boolean waitForInvisibility(WebElement element) {
+		return getWait().until(ExpectedConditions.invisibilityOf(element));
+	}
+	 
+	 public static WebDriver waitForFrame(String frameName) {
+		    return getWait().until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frameName));
+		}
+	 
+	 public static Alert waitForAlert() {
+		    return getWait().until(ExpectedConditions.alertIsPresent());
+		}
+	 
+	 public static boolean waitForText(WebElement element, String text) {
+		    return getWait().until(ExpectedConditions.textToBePresentInElement(element, text));
+		}
 
 }

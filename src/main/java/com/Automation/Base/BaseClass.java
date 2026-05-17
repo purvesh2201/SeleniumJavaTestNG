@@ -49,6 +49,7 @@ public class BaseClass {
 			 Log.info("Invalid browser specified in config.properties file. Please check the file and try again.");
 			 break;
 		}
+		
 		DriverManager.setDriver(driver);
 		DriverManager.getDriver().manage().window().maximize();
 		DriverManager.getDriver().get(prop.getProperty("url"));

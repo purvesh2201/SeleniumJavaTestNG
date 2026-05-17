@@ -24,3 +24,9 @@
 2026-05-17 09:46:22 INFO  Log:10 - testInValidLogin ended.
 2026-05-17 09:46:22 INFO  Log:10 - Valid login test passed.
 2026-05-17 09:46:22 INFO  Log:10 - testValidLogin ended.
+2026-05-17 10:24:24 INFO  Log:10 - testValidLogin started.
+2026-05-17 10:24:24 INFO  Log:10 - testInValidLogin started.
+2026-05-17 10:24:25 INFO  Log:10 - Invalid credentials message is displayed.
+2026-05-17 10:24:25 INFO  Log:10 - testInValidLogin ended.
+2026-05-17 10:24:25 INFO  Log:10 - Login successful, dashboard is displayed.
+2026-05-17 10:24:25 INFO  Log:10 - testValidLogin ended.
