@@ -1,3 +1,70 @@
+# .gitignore for OrangeHRMTestNG Maven/Java project
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+application.log
+
+# Maven build output
 /target/
-/logs/
+
+# Test output and reports
 /test-output/
+surefire-reports/
+allure-results/
+/reports/
+extentReport.html
+
+# Generated sources
+/generated-sources/
+/generated-test-sources/
+
+# IDEs and editors
+/.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+/.settings/
+/out/
+/.vscode/
+
+# Eclipse specific
+/bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+/tmp/
+/temp/
+*.tmp
+
+# Environment variables
+.env
+
+# Node modules (if any subprojects)
+/node_modules/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Java keystores, credentials
+*.jks
+*.keystore
+
+# Coverage and analysis
+/coverage/
+/.cache/
+
+# Misc
+/.history
+/.idea/*/workspace.xml

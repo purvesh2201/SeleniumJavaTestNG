@@ -33,7 +33,7 @@ public class LoginPageTest extends BaseClass {
 		Boolean isLoginSuccessful = loginPage.validLogin(username, password);
 		Assert.assertTrue(isLoginSuccessful, "Login should be successful with valid credentials.");
 		Log.info(isLoginSuccessful ? "Login successful, dashboard is displayed." : "Login failed, dashboard is not displayed.");
-		Log.info("testValidLogin ended.");
+		Log.info("testValidLogin ended..");
 	}
 	
 
@@ -44,7 +44,7 @@ public class LoginPageTest extends BaseClass {
 		Boolean isErrorMessageDisplayed = loginPage.invalidLogin(username, password);
 		Assert.assertTrue(isErrorMessageDisplayed, "Invalid credentials message should be displayed for invalid login.");
 		Log.info(isErrorMessageDisplayed ? "Invalid credentials message is displayed." : "Invalid credentials message is not displayed.");
-		Log.info("testInValidLogin ended.");
+		Log.info("testInValidLogin ended..");
 	}
 	
 	
