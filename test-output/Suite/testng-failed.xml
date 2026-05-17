@@ -6,8 +6,8 @@
       <class name="com.Automation.Tests.LoginPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testInvalidLogin"/>
-          <include name="testValidLogin"/>
+          <include name="testInvalidLogin" invocation-numbers="0 1"/>
+          <include name="testValidLogin" invocation-numbers="0 1"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.Automation.Tests.LoginPageTest -->

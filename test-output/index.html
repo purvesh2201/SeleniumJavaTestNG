@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.Automation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.Automation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="testInvalidLogin(test, test123)">testInvalidLogin(test, test123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.Automation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.Automation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="testInvalidLogin(prod, prod123)">testInvalidLogin(prod, prod123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Automation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="testValidLogin(admin, admin123)">testValidLogin(admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Automation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="testValidLogin(admin, admin123)">testValidLogin(admin, admin123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -131,16 +141,34 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testInvalidLogin">
-                  </a> <!-- testInvalidLogin -->
+                  <a name="testInvalidLogin(test, test123)">
+                  </a> <!-- testInvalidLogin(test, test123) -->
                   <span class="method-name">testInvalidLogin</span>
+                  <span class="parameters">(test,test123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testValidLogin">
-                  </a> <!-- testValidLogin -->
+                  <a name="testInvalidLogin(prod, prod123)">
+                  </a> <!-- testInvalidLogin(prod, prod123) -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <span class="parameters">(prod,prod123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin(admin, admin123)">
+                  </a> <!-- testValidLogin(admin, admin123) -->
                   <span class="method-name">testValidLogin</span>
+                  <span class="parameters">(admin,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin(admin, admin123)">
+                  </a> <!-- testValidLogin(admin, admin123) -->
+                  <span class="method-name">testValidLogin</span>
+                  <span class="parameters">(admin,admin123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,20 +225,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testValidLogin')
 data.setCell(0, 2, 'com.Automation.Tests.LoginPageTest')
-data.setCell(0, 3, 2355);
+data.setCell(0, 3, 7968);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testInvalidLogin')
+data.setCell(1, 1, 'testValidLogin')
 data.setCell(1, 2, 'com.Automation.Tests.LoginPageTest')
-data.setCell(1, 3, 2055);
+data.setCell(1, 3, 7608);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testInvalidLogin')
+data.setCell(2, 2, 'com.Automation.Tests.LoginPageTest')
+data.setCell(2, 3, 6441);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testInvalidLogin')
+data.setCell(3, 2, 'com.Automation.Tests.LoginPageTest')
+data.setCell(3, 3, 4156);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -243,23 +279,47 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testValidLogin</span>
-                <span class="method-start">5099 ms</span>
+                <span class="method-name">testInvalidLogin(test, test123)</span>
+                <span class="method-start">62635 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testInvalidLogin</span>
-                <span class="method-start">5136 ms</span>
+                <span class="method-name">testValidLogin(admin, admin123)</span>
+                <span class="method-start">66610 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7191 ms</span>
+                <span class="method-start">66796 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">67617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLogin(prod, prod123)</span>
+                <span class="method-start">72695 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7457 ms</span>
+                <span class="method-start">74218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">74945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79136 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin(admin, admin123)</span>
+                <span class="method-start">81072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89040 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
